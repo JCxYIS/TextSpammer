@@ -43,7 +43,7 @@
             // 
             // StartButton
             // 
-            this.StartButton.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.StartButton.Font = new System.Drawing.Font("文鼎俏黑體P", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.StartButton.Location = new System.Drawing.Point(50, 343);
             this.StartButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.StartButton.Name = "StartButton";
@@ -55,7 +55,7 @@
             // 
             // StopButton
             // 
-            this.StopButton.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.StopButton.Font = new System.Drawing.Font("文鼎俏黑體P", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.StopButton.Location = new System.Drawing.Point(264, 343);
             this.StopButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.StopButton.Name = "StopButton";
@@ -72,7 +72,7 @@
             this.CdInputField.MaxLength = 7;
             this.CdInputField.Name = "CdInputField";
             this.CdInputField.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.CdInputField.Size = new System.Drawing.Size(100, 27);
+            this.CdInputField.Size = new System.Drawing.Size(100, 23);
             this.CdInputField.TabIndex = 4;
             this.CdInputField.Text = "3";
             // 
@@ -92,7 +92,7 @@
             this.cdLab.BackColor = System.Drawing.Color.Transparent;
             this.cdLab.Location = new System.Drawing.Point(230, 205);
             this.cdLab.Name = "cdLab";
-            this.cdLab.Size = new System.Drawing.Size(124, 19);
+            this.cdLab.Size = new System.Drawing.Size(100, 16);
             this.cdLab.TabIndex = 7;
             this.cdLab.Text = "Seconds Interval";
             // 
@@ -103,11 +103,11 @@
             this.logoLabel.BackColor = System.Drawing.Color.Transparent;
             this.logoLabel.Cursor = System.Windows.Forms.Cursors.Help;
             this.logoLabel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.logoLabel.Font = new System.Drawing.Font("Comic Sans MS", 19.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoLabel.Font = new System.Drawing.Font("文鼎俏黑體P", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.logoLabel.ForeColor = System.Drawing.Color.DarkCyan;
-            this.logoLabel.Location = new System.Drawing.Point(60, 28);
+            this.logoLabel.Location = new System.Drawing.Point(71, 34);
             this.logoLabel.Name = "logoLabel";
-            this.logoLabel.Size = new System.Drawing.Size(346, 46);
+            this.logoLabel.Size = new System.Drawing.Size(322, 30);
             this.logoLabel.TabIndex = 8;
             this.logoLabel.Text = "J.C.\'s Text Spammer";
             this.logoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -119,7 +119,7 @@
             this.spamTimesInput.MaxLength = 7;
             this.spamTimesInput.Name = "spamTimesInput";
             this.spamTimesInput.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.spamTimesInput.Size = new System.Drawing.Size(100, 27);
+            this.spamTimesInput.Size = new System.Drawing.Size(100, 23);
             this.spamTimesInput.TabIndex = 9;
             this.spamTimesInput.Text = "10";
             // 
@@ -129,7 +129,7 @@
             this.timesLab.BackColor = System.Drawing.Color.Transparent;
             this.timesLab.Location = new System.Drawing.Point(230, 238);
             this.timesLab.Name = "timesLab";
-            this.timesLab.Size = new System.Drawing.Size(94, 19);
+            this.timesLab.Size = new System.Drawing.Size(77, 16);
             this.timesLab.TabIndex = 10;
             this.timesLab.Text = "Spam Times";
             // 
@@ -137,9 +137,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(114, 286);
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(94, 285);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 19);
+            this.label1.Size = new System.Drawing.Size(103, 20);
             this.label1.TabIndex = 11;
             this.label1.Text = "Spam Count";
             // 
@@ -148,18 +149,18 @@
             this.spamCount.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.spamCount.AutoSize = true;
             this.spamCount.BackColor = System.Drawing.Color.Transparent;
-            this.spamCount.Font = new System.Drawing.Font("微軟正黑體", 30F);
+            this.spamCount.Font = new System.Drawing.Font("文鼎俏黑體P", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.spamCount.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.spamCount.Location = new System.Drawing.Point(223, 266);
             this.spamCount.Name = "spamCount";
-            this.spamCount.Size = new System.Drawing.Size(56, 63);
+            this.spamCount.Size = new System.Drawing.Size(48, 43);
             this.spamCount.TabIndex = 12;
             this.spamCount.Text = "0";
             this.spamCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // JCspammer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(457, 428);

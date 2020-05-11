@@ -66,11 +66,11 @@ namespace TextSpammer
             StopButton.Enabled = false;
         }
 
-        
+        int count = 0;
         private async Task Spamming(float cd, int maxCount, string text, CancellationToken cancelToken)
         {
-            int count = 0;
-            while(count < maxCount)
+            await Task.Delay(3000);
+            while (count < maxCount)
             {
                 if(cancelToken.IsCancellationRequested)
                 {
